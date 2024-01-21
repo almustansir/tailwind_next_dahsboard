@@ -30,7 +30,7 @@ const SideBarComp = () => {
           <ul className="space-y-2 font-medium">
             <li>
               <a
-                href="#"
+                href="./"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Dashboard</span>
@@ -38,7 +38,7 @@ const SideBarComp = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="./charts"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Charts</span>
@@ -46,7 +46,7 @@ const SideBarComp = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="./Customers"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Customer Info</span>
@@ -54,7 +54,7 @@ const SideBarComp = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="./account"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Account</span>
@@ -62,7 +62,7 @@ const SideBarComp = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="./"
                 className="flex items-center p-2 text-red-900 rounded-lg dark:text-red-400 hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Logout</span>
