@@ -62,7 +62,7 @@ const SideBarComp = () => {
             </li>
             <li>
               <a
-                href="./"
+                href="./login"
                 className="flex items-center p-2 text-red-900 rounded-lg dark:text-red-400 hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Logout</span>
