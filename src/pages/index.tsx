@@ -36,7 +36,7 @@ export default function Home() {
               <BarChartComp />
             </div>
             <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
-              <p className="text-2xl text-gray-400">Chart 2</p>
+              <BarChartComp />
             </div>
           </div>
           <h4 className=" text-2xl">Current Customer Dues</h4>
