@@ -9,7 +9,7 @@ const resetPass = () => {
             <h2 className="mb-1 text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Change Password
             </h2>
-            <form className="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="#">
+            <form className="my-4 space-y-4 lg:mt-5 md:space-y-5" action="#">
               <div className=" font-medium text-xl dark:text-white">
                 User Name
               </div>
@@ -80,6 +80,12 @@ const resetPass = () => {
                 Reset passwod
               </button>
             </form>
+            <a
+              href="./account"
+              className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Cancel
+            </a>
           </div>
         </div>
       </section>
