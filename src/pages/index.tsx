@@ -1,3 +1,4 @@
+import BarChartComp from "../components/BarChartComp";
 import SideBarComp from "../components/SideBarComp";
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 gap-4 mb-4">
             <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
-              <p className="text-2xl text-gray-400">Chart 1</p>
+              <BarChartComp />
             </div>
             <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
               <p className="text-2xl text-gray-400">Chart 2</p>
