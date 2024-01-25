@@ -10,24 +10,30 @@ export default function Home() {
         <div className="p-4">
           <div className="grid grid-cols-3 gap-4 mb-4">
             <div className="flex flex-col justify-around h-32 bg-gray-50 border-2 rounded-lg border-gray-200 p-4">
-              <h4 className=" text-2xl">Total Customers</h4>
-              <h3 className=" text-3xl text-center text-blue-600 font-bold">
+              <h4 className=" text-l md:text-xl lg:text-2xl">
+                Total Customers
+              </h4>
+              <h3 className=" text-xl md:text-2xl lg:text-3xl text-center text-blue-600 font-bold">
                 102
               </h3>
-              <p className=" text-l text-gray-500 text-right">
+              <p className=" text-sm md:text-l text-gray-500 text-right">
                 New Customers(30 days): <span>12</span>
               </p>
             </div>
             <div className="flex flex-col justify-around h-32 bg-gray-50 border-2 rounded-lg border-gray-200 p-4">
-              <h4 className=" text-2xl">Monthly Profits</h4>
-              <h3 className=" text-3xl text-center text-green-600 font-bold">
+              <h4 className=" text-l md:text-xl lg:text-2xl">
+                Monthly Profits
+              </h4>
+              <h3 className=" text-xl md:text-2xl lg:text-3xl text-center text-green-600 font-bold">
                 ৳ 1,44,000
               </h3>
-              <p className=" text-l text-gray-500 text-right">Janyary, 2024</p>
+              <p className=" text-sm md:text-l text-gray-500  text-right">
+                Janyary, 2024
+              </p>
             </div>
             <div className="flex flex-col justify-around h-32 bg-gray-50 border-2 rounded-lg border-gray-200 p-4">
-              <h4 className=" text-2xl">Total Due</h4>
-              <h3 className=" text-3xl text-center text-red-500 font-bold pb-4">
+              <h4 className=" text-l md:text-xl lg:text-2xl">Total Due</h4>
+              <h3 className=" text-xl md:text-2xl lg:text-3xl text-center text-red-500 font-bold pb-4">
                 ৳ 32,000
               </h3>
             </div>
