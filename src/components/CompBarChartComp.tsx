@@ -68,7 +68,7 @@ const CompBarChartComp = () => {
         },
         title: {
           display: true,
-          text: "2023 Sales",
+          text: "2023 Debit and Credit",
         },
       },
       maintainAspectRatio: false,
