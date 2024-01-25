@@ -1,6 +1,7 @@
 import React from "react";
 import SideBarComp from "../components/SideBarComp";
 import BarChartComp from "../components/BarChartComp";
+import CompBarChartComp from "../components/CompBarChartComp";
 
 const charts = () => {
   return (
@@ -13,7 +14,7 @@ const charts = () => {
         <div className=" flex flex-col gap-3">
           <div className=" flex flex-row gap-2">
             <BarChartComp />
-            <BarChartComp />
+            <CompBarChartComp />
           </div>
           <div className=" flex flex-row gap-2">
             <BarChartComp />

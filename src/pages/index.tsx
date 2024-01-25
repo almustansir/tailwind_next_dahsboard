@@ -1,4 +1,5 @@
 import BarChartComp from "../components/BarChartComp";
+import CompBarChartComp from "../components/CompBarChartComp";
 import SideBarComp from "../components/SideBarComp";
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
               <BarChartComp />
             </div>
             <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
-              <BarChartComp />
+              <CompBarChartComp />
             </div>
           </div>
           <h4 className=" text-2xl">Current Customer Dues</h4>
