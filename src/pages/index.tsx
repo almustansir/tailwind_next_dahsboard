@@ -38,16 +38,16 @@ export default function Home() {
               </h3>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 mb-4">
-            <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div className=" rounded bg-gray-50 h-80 border-2 border-gray-200">
               <BarChartComp />
             </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-80 border-2 border-gray-200">
+            <div className="rounded bg-gray-50 h-80 border-2 border-gray-200">
               <CompBarChartComp />
             </div>
           </div>
           <h4 className=" text-2xl">Current Customer Dues</h4>
-          <div className="flex flex-col items-center justify-center mb-4 rounded bg-gray-50 border-2 border-gray-200">
+          <div className=" mb-4 rounded bg-gray-50 border-2 border-gray-200">
             <table className="w-full text-sm text-left rtl:text-right text-gray-500">
               <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                 <tr>
