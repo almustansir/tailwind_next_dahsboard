@@ -8,7 +8,7 @@ export default function Home() {
       <div className="p-4 sm:ml-64">
         <SideBarComp />
         <div className="p-4">
-          <div className="grid grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
             <div className="flex flex-col justify-around h-32 bg-gray-50 border-2 rounded-lg border-gray-200 p-4">
               <h4 className=" text-l md:text-xl lg:text-2xl">
                 Total Customers
