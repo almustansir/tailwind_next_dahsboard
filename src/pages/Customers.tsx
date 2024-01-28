@@ -8,7 +8,7 @@ const Customers = () => {
       <div>
         <div className=" flex justify-between">
           <h4 className=" text-3xl">Customers List:</h4>{" "}
-          <button className="text-blue-700 w-64 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+          <button className="text-blue-700 md:w-64 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             Add New Entry
           </button>
         </div>
