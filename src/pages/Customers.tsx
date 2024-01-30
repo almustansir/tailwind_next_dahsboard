@@ -1,9 +1,9 @@
 import React from "react";
-import SideBarComp from "../components/SideBarComp";
+import SideBarComp from "../components/NewSideBarComp";
 
 const Customers = () => {
   return (
-    <div className="p-4 sm:ml-64">
+    <div className="p-4 md:ml-64">
       <SideBarComp />
       <div>
         <div className=" flex justify-between">

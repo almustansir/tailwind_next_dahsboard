@@ -71,7 +71,7 @@ const BarChartComp = () => {
 
   return (
     <>
-      <div className=" w-full relative h-full m-auto p-4 border rounded-lg bg-white flex justify-center">
+      <div className=" w-full h-full m-auto p-4 border rounded-lg bg-white flex justify-center">
         <Bar data={chartData} options={chartOptions} />
       </div>
     </>

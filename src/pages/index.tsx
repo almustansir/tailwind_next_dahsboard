@@ -1,6 +1,6 @@
 import BarChartComp from "../components/BarChartComp";
 import CompBarChartComp from "../components/CompBarChartComp";
-import SideBarComp from "../components/SideBarComp";
+import SideBarComp from "../components/NewSideBarComp";
 
 export default function Home() {
   return (
