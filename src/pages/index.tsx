@@ -5,7 +5,7 @@ import SideBarComp from "../components/SideBarComp";
 export default function Home() {
   return (
     <div className="">
-      <div className="p-4 sm:ml-64">
+      <div className="p-4 md:ml-64">
         <SideBarComp />
         <div className="p-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
