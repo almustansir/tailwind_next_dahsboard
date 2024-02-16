@@ -14,8 +14,8 @@ const CustomerModalComp = () => {
         </div>
         <div className="mx-3 flex flex-row">
           <select
-            id="countries"
-            className="  opacity-50 mr-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            id="catagory"
+            className="mr-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           >
             <option selected>Choose a catagory</option>
             <option value="1">Catagory 1</option>
@@ -26,7 +26,7 @@ const CustomerModalComp = () => {
           <label
             id="file-input-label"
             htmlFor="product_img_input"
-            className="ml-2 opacity-50 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           >
             Input Product Image
           </label>
@@ -42,12 +42,12 @@ const CustomerModalComp = () => {
           <input
             type="text"
             placeholder="Quantity"
-            className="mr-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="mr-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           />
           <input
             type="text"
             placeholder="Store"
-            className=" ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           />
         </div>
         <div className="m-3 flex flex-row">
